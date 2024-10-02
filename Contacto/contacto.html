@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos :D</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" href="/images/ICONO.png">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="header-container">
+            <img class="imagen-logo" src="/images/logo.svg" alt="Coca-Cola Logo">
+            <nav class="nav">
+                <ul class="nav__cont__menu">
+                    <!-- Enlaces de navegación -->
+                    <li class="nav__cont__menu__item"><a class="nav__cont__menu__item--link" href="../index.html">Inicio</a></li>
+                    <li class="nav__cont__menu__item"><a class="nav__cont__menu__item--link" href="../marcas/Marcas.html">Marcas</a></li>
+                    <li class="nav__cont__menu__item"><a class="nav__cont__menu__item--link" href="../impacto/impacto.html" >Impacto</a></li>
+                    <li class="nav__cont__menu__item"><a class="nav__cont__menu__item--link" href="contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="container">
+        <div class="contact-wrapper">
+            <form class="coca-cola-form">
+                <h2>¡Únete a la Experiencia Coca-Cola!</h2>
+
+                <div class="form-group">
+                    <label for="nombreApellido">Nombre y Apellido*:</label>
+                    <input type="text" id="nombreApellido" name="nombreApellido" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail*:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Grupo de código de país y teléfono en una misma fila -->
+                <div class="form-group flex-row">
+                    <div class="input-group">
+                        <label for="codigo-pais">Código de país:</label>
+                        <input type="text" id="codigo-pais" name="codigo-pais" placeholder="Ej. +51">
+                    </div>
+                    <div class="input-group">
+                        <label for="telefono">Teléfono de contacto:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion">
+                </div>
+
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha-nacimiento">Fecha de nacimiento*:</label>
+                    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+
+                <div class="form-group terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Acepto los <a href="https://www.coca-cola.com/pe/es/legal/terms-of-service">Términos y Condiciones</a> y la <a href="https://www.coca-cola.com/pe/es/legal/privacy-policy">Política de Privacidad</a></label>
+                </div>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+
+            <!-- Encuéntranos -->
+            <div class="encuentranos">
+                <h2>Encuéntranos</h2>
+                <div>
+                    <p><strong>Detalles del contacto</strong></p>
+                    <p><strong><i class="fas fa-envelope"></i> Correo electrónico:</strong> info@cocacola.com</p>
+                    <p><strong><i class="fas fa-phone"></i> Llámanos:</strong> 054-694135</p>
+                    <p><strong><i class="fab fa-whatsapp"></i> Whatsapp:</strong> +51-957966829</p>
+                    <p><strong><i class="fas fa-map-marker-alt"></i> Dirección:</strong> Coca-Cola Planta Lindey, Tiabaya 04013, Perú</p>
+                </div>
+            </div>
+
+            <!-- Ubícanos -->
+            <div id="ubicanos" class="ubicanos">
+                <h2>Ubícanos</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.5258551922357!2d-71.59017692297796!3d-16.448889839415354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9142354c28d542e5%3A0x683e7c63108e5917!2sCoca%20Cola%20planta%20lindey%20tiabaya!5e0!3m2!1ses-419!2spe!4v1713387368410!5m2!1ses-419!2spe"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------FOTTER ------------------>
+    <footer class="coca-cola-footer">
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.svg" alt="Coca-Cola logo">
+                <div class="line"></div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-links">
+                    <div>
+                        <h3>SOBRE NOSOTROS</h3>
+                        <ul>
+                            <p class="sobre-nosotros">Nuestra misión es ofrecer productos de alta calidad que mejoren la vida de nuestros clientes, manteniendo siempre los más altos estándares éticos y sociales. Con una trayectoria sólida, seguimos creciendo y adaptándonos a las nuevas demandas del mercado global.</p>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>¿NECESITAS AYUDA?</h3>
+                        <ul>
+                            <li><a href="#ubicanos">Mapa del sitio</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                            <li><a href="https://www.coca-cola.com/pe/es/legal/terms-of-service">Términos de uso</a></li>
+                            <li><a href="https://www.coca-cola.com/pe/es/legal/privacy-policy">Política de Privacidad</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.youtube.com/@Coca-Cola"><img src="/images/social/yt.png" alt="Youtube"></a>
+                    <a href="https://www.facebook.com/cocacolaperu/?locale=es_LA"><img src="/images/social/fb.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/cocacolape/?hl=es"><img src="/images/social/ig.png" alt="Instagram"></a>
+                    <a href="https://x.com/cocacola"><img src="/images/social/x.jpg" alt="X"></a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2024 The Coca-Cola Company. Reservados todos los derechos.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
