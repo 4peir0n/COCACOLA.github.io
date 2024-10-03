@@ -1,5 +1,4 @@
 /* ----------------- Estilos Generales -------------------- */
-/* Aplica estilos generales a todos los elementos */
 * {
     margin: 0; /* Elimina márgenes por defecto */
     padding: 0; /* Elimina rellenos por defecto */
@@ -13,7 +12,6 @@ body {
 }
 
 /* ----------------- Encabezado -------------------------- */
-/* Estilos para la sección del encabezado */
 header {
     padding: 2em 0; /* Espaciado interno */
     text-align: center; /* Texto centrado */
@@ -99,7 +97,6 @@ nav ul li a:hover::after {
 }
 
 /* ------------------------Contenedores Generales --------------------------- */
-/* Estilos para los contenedores generales */
 .container {
     margin: 50px auto; /* Centra el contenedor con márgenes */
     max-width: 1200px; /* Ancho máximo */
@@ -107,7 +104,6 @@ nav ul li a:hover::after {
 }
 
 /* --------------------- Sección de Inicio ---------------------- */
-/* Estilos para el título principal */
 h1 {
     color: #c8102e; /* Color del texto */
     text-align: center; /* Texto centrado */
@@ -250,8 +246,6 @@ h2:hover {
         text-align: center; /* Centra la imagen en dispositivos pequeños */
     }
 }
-
-
 /* ------------------------ Footer -------------------------- */
 footer {
     background-color: #000; /* Color de fondo del pie de página */
