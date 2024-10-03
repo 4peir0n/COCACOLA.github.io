@@ -132,7 +132,7 @@ h2:hover {
     letter-spacing: 2px; /* Añade espacio entre letras al hacer hover */
 }
 
-/* ============================== Contenido Principal ============================== */
+/* ---------------Contenido Principal ----------------*/
 .container {
     max-width: 1200px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
@@ -344,7 +344,6 @@ h2:hover {
     }
 }
 
-
 /* --------- Footer -------- */
 footer {
     background-color: #000; /* Color de fondo del pie de página */
@@ -450,7 +449,7 @@ footer {
     color: #aaaaaa; /* Color del texto del copyright */
 }
 
-/* ============================== Efectos de Transición ============================== */
+/* --------------- Efectos de Transición ------------- */
 .transicion {
     transition: all 0.3s ease; /* Transición suave */
 }
